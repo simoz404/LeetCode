@@ -1,10 +1,10 @@
 package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
-	fmt.Println(topKFrequent([]int{1, 1, 1, 1, 2, 2, 3}, 2))
-}
+// func main() {
+// 	fmt.Println(topKFrequent([]int{1, 1, 1, 1, 2, 2, 3}, 2))
+// }
 
 func topKFrequent(nums []int, k int) []int {
 	var myMap = make(map[int]int)
