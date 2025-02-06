@@ -1,12 +1,14 @@
 package main
 
+import "fmt"
+
 // import "fmt"
 
 // func main() {
 // 	fmt.Println(groupAnagrams([]string{"eat","tea","tan","ate","nat","bat"}))
 // }
 
-func groupAnagrams(strs []string)[][]string {
+func groupAnagrams(strs []string) [][]string {
 	var fianlAtt [][]string
 	var myMap = make(map[string][]string)
 	var s string
